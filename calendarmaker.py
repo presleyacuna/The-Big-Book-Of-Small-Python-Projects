@@ -87,8 +87,8 @@ def getCalendarFor(year, month):
             break
 
     # Add the horizontal line at the very bottom of the calendar.
-        calText += weekSeparator
-        return calText
+    calText += weekSeparator
+    return calText
 
 calText = getCalendarFor(year, month)
 print(calText) # Display the calendar.
